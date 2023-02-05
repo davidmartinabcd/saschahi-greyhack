@@ -86,7 +86,7 @@ hackrouter = function(ip,lan)
 			print("Fantom has found a shell\nwould you like too use it? y/n")
 			said = user_input("Answer:")
 			
-			if said == "y" then ex.start_terminal end if
+			if said == "y" then ex.start_terminal
 			
 		end if
 		
@@ -180,7 +180,7 @@ hack = function(ip,port)
 			print("Fantom has found a shell\nwould you like too use it? y/n")
 			said = user_input("Answer:")
 			
-			if said == "y" then ex.start_terminal end if
+			if said == "y" then ex.start_terminal
 		end if
 		
 		
